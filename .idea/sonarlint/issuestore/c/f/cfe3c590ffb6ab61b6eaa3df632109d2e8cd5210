@@ -1,0 +1,14 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(¹Óú 8ñİèíÌ.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ÁÏø8—ˆèíÌ.
+E
+java:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8õ¦èíÌ.
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(û§îÇûÿÿÿÿ8—ˆèíÌ.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8—ˆèíÌ.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8—ˆèíÌ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ïíëœ8—ˆèíÌ.
+E
+java:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8õ¦èíÌ.

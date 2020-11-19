@@ -1,0 +1,9 @@
+
+Q
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg8ßÈüÚÒ.
+K
+java:S2140")Use "java.util.Random.nextInt()" instead.(ÿßË€ıÿÿÿÿ8ş´¼õÖ.
+W
+java:S1481"5Remove this unused "hikCommunityName" local variable.(ºŒµ¬şÿÿÿÿ8ş´¼õÖ.
+X	java:S125	"<This block of commented-out lines of code should be removed.(«Ó¶³8ş´¼õÖ.
+]	java:S125"<This block of commented-out lines of code should be removed.(óàÚåüÿÿÿÿ8ş´¼õÖ.
