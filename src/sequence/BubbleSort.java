@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 空间复杂度1 需要一个临时变量来存数据
  * 稳定性：稳定
  */
-public class MaoPao {
+public class BubbleSort {
     public static void main(String[] args) {
         int count = 0;
         int[] arry = new int[]{19, 90, 55, 26, 35, 56, 44, 17, 26};

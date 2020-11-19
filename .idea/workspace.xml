@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c32607ac-02f4-43ee-bc59-f8782d968697" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c32607ac-02f4-43ee-bc59-f8782d968697" name="Default" comment="fix #sequence 冒泡排序优化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sequence/MaoPao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sequence/MaoPao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Test/sequence/MaoPao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sequence/ChaRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sequence/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sequence/MaoPao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sequence/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +40,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.MaoPao">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="AES" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="safe.AES" />
       <module name="Java8Test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="safe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sequence.BubbleSort" />
+      <module name="Java8Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,25 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.Test3" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sequence.SelectionSort" />
       <module name="Java8Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.Test4" />
-      <module name="Java8Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="sequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,19 +107,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test3" />
-      <item itemvalue="Application.Test4" />
       <item itemvalue="Application.TestURI" />
       <item itemvalue="Application.MaoPao" />
       <item itemvalue="Application.AES" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.BubbleSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.MaoPao" />
         <item itemvalue="Application.AES" />
         <item itemvalue="Application.TestURI" />
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -150,34 +151,50 @@
       <workItem from="1603879706096" duration="332000" />
       <workItem from="1605149508594" duration="5754000" />
       <workItem from="1605662941854" duration="608000" />
-      <workItem from="1605754196126" duration="1587000" />
+      <workItem from="1605754196126" duration="3952000" />
     </task>
+    <task id="LOCAL-00001" summary="fix #sequence 冒泡排序优化">
+      <created>1605756026855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605756026855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix #sequence 冒泡排序优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix #sequence 冒泡排序优化" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="609" y="120" key="CommitChangelistDialog2" timestamp="1605754621184">
+    <state x="609" y="120" width="892" height="796" key="CommitChangelistDialog2" timestamp="1605756008133">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="609" y="120" key="CommitChangelistDialog2/0.0.1920.1036@0.0.1920.1036" timestamp="1605754621184" />
-    <state width="1878" height="314" key="GridCell.Tab.0.bottom" timestamp="1605755794864">
+    <state x="609" y="120" width="892" height="796" key="CommitChangelistDialog2/0.0.1920.1036@0.0.1920.1036" timestamp="1605756008133" />
+    <state width="1878" height="314" key="GridCell.Tab.0.bottom" timestamp="1605768265558">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1878" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1605755794864" />
-    <state width="1878" height="314" key="GridCell.Tab.0.center" timestamp="1605755794863">
+    <state width="1878" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1605768265558" />
+    <state width="1878" height="314" key="GridCell.Tab.0.center" timestamp="1605768265558">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1878" height="314" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1605755794863" />
-    <state width="1878" height="314" key="GridCell.Tab.0.left" timestamp="1605755794863">
+    <state width="1878" height="314" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1605768265558" />
+    <state width="1878" height="314" key="GridCell.Tab.0.left" timestamp="1605768265558">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1878" height="314" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1605755794863" />
-    <state width="1878" height="314" key="GridCell.Tab.0.right" timestamp="1605755794864">
+    <state width="1878" height="314" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1605768265558" />
+    <state width="1878" height="314" key="GridCell.Tab.0.right" timestamp="1605768265558">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1878" height="314" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1605755794864" />
+    <state width="1878" height="314" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1605768265558" />
+    <state x="556" y="247" key="Vcs.Push.Dialog.v2" timestamp="1605756031688">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="556" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1605756031688" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
