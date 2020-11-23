@@ -18,8 +18,8 @@ public class InsertionSort {
         int[] arry = new int[]{19, 90, 55, 26, 35, 56, 44, 17, 26};
         for (int i = 1; i < arry.length; i++) {
             int preIndex = i - 1;
-            int index = i;
-            int temp = arry[index];
+            int index = i;  // 当前坐标
+            int temp = arry[index]; // 当前的目标值
             while (preIndex >= 0 && arry[preIndex] >= temp) {
                 System.out.println("后挪一次");
                 count++;

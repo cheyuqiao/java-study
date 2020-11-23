@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c32607ac-02f4-43ee-bc59-f8782d968697" name="Default" comment="feat #sequence 插入排序">
-      <change afterPath="$PROJECT_DIR$/src/source/ContainsTest.java" afterDir="false" />
+    <list default="true" id="c32607ac-02f4-43ee-bc59-f8782d968697" name="Default" comment="feat #java8 stream和contains的测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sequence/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sequence/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/ContainsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/ContainsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +156,7 @@
       <workItem from="1603879706096" duration="332000" />
       <workItem from="1605149508594" duration="5754000" />
       <workItem from="1605662941854" duration="608000" />
-      <workItem from="1605754196126" duration="10765000" />
+      <workItem from="1605754196126" duration="15515000" />
     </task>
     <task id="LOCAL-00001" summary="fix #sequence 冒泡排序优化">
       <created>1605756026855</created>
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605781237855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat #java8 stream和contains的测试">
+      <created>1605853574304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605853574304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,13 +197,14 @@
     <MESSAGE value="fix #sequence 冒泡排序优化" />
     <MESSAGE value="feat #sequence 选择排序" />
     <MESSAGE value="feat #sequence 插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat #sequence 插入排序" />
+    <MESSAGE value="feat #java8 stream和contains的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat #java8 stream和contains的测试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="0" width="892" height="796" key="CommitChangelistDialog2" timestamp="1605853549192">
+    <state x="450" y="0" width="834" height="765" key="CommitChangelistDialog2" timestamp="1606101620730">
       <screen x="0" y="0" width="1419" height="765" />
     </state>
-    <state x="450" y="0" key="CommitChangelistDialog2/0.0.1419.765@0.0.1419.765" timestamp="1605853549192" />
+    <state x="450" y="0" width="834" height="765" key="CommitChangelistDialog2/0.0.1419.765@0.0.1419.765" timestamp="1606101620730" />
     <state x="609" y="120" width="892" height="796" key="CommitChangelistDialog2/0.0.1920.1036@0.0.1920.1036" timestamp="1605770279625" />
     <state width="1377" height="234" key="GridCell.Tab.0.bottom" timestamp="1605853472016">
       <screen x="0" y="0" width="1419" height="765" />
@@ -242,10 +251,10 @@
     </state>
     <state x="373" y="38" key="SettingsEditor/0.0.1419.765@0.0.1419.765" timestamp="1605769733747" />
     <state x="505" y="51" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1605769671336" />
-    <state x="411" y="182" key="Vcs.Push.Dialog.v2" timestamp="1605781244664">
+    <state x="411" y="182" key="Vcs.Push.Dialog.v2" timestamp="1605853583386">
       <screen x="0" y="0" width="1419" height="765" />
     </state>
-    <state x="411" y="182" key="Vcs.Push.Dialog.v2/0.0.1419.765@0.0.1419.765" timestamp="1605781244664" />
+    <state x="411" y="182" key="Vcs.Push.Dialog.v2/0.0.1419.765@0.0.1419.765" timestamp="1605853583386" />
     <state x="556" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1605768741646" />
     <state x="563" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605834575996">
       <screen x="0" y="0" width="1419" height="765" />
@@ -260,14 +269,6 @@
           <url>file://$PROJECT_DIR$/src/stream/TestURI.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/source/ContainsTest.java</url>
-          <line>20</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
