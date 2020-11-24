@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32607ac-02f4-43ee-bc59-f8782d968697" name="Default" comment="perf #sequence 优化插入排序">
+      <change afterPath="$PROJECT_DIR$/src/sequence/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sequence/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sequence/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,7 @@
       <workItem from="1603879706096" duration="332000" />
       <workItem from="1605149508594" duration="5754000" />
       <workItem from="1605662941854" duration="608000" />
-      <workItem from="1605754196126" duration="18266000" />
+      <workItem from="1605754196126" duration="19636000" />
     </task>
     <task id="LOCAL-00001" summary="fix #sequence 冒泡排序优化">
       <created>1605756026855</created>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606125654983</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="perf #sequence 优化插入排序">
+      <created>1606210426540</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606210426540</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,11 +216,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="perf #sequence 优化插入排序" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="609" y="120" width="834" height="765" key="CommitChangelistDialog2" timestamp="1606210406760">
+    <state x="609" y="120" width="834" height="765" key="CommitChangelistDialog2" timestamp="1606212129864">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="450" y="0" width="834" height="765" key="CommitChangelistDialog2/0.0.1419.765@0.0.1419.765" timestamp="1606125640110" />
-    <state x="609" y="120" width="892" height="796" key="CommitChangelistDialog2/0.0.1920.1036@0.0.1920.1036" timestamp="1606210406760" />
+    <state x="609" y="120" width="892" height="796" key="CommitChangelistDialog2/0.0.1920.1036@0.0.1920.1036" timestamp="1606212129864" />
     <state width="1878" height="88" key="GridCell.Tab.0.bottom" timestamp="1606210169717">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
@@ -259,11 +266,11 @@
     </state>
     <state x="373" y="38" key="SettingsEditor/0.0.1419.765@0.0.1419.765" timestamp="1605769733747" />
     <state x="505" y="51" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1605769671336" />
-    <state x="411" y="182" key="Vcs.Push.Dialog.v2" timestamp="1606125664630">
-      <screen x="0" y="0" width="1419" height="765" />
+    <state x="556" y="247" key="Vcs.Push.Dialog.v2" timestamp="1606210432722">
+      <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="411" y="182" key="Vcs.Push.Dialog.v2/0.0.1419.765@0.0.1419.765" timestamp="1606125664630" />
-    <state x="556" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1605768741646" />
+    <state x="556" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1606210432722" />
     <state x="563" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605834575996">
       <screen x="0" y="0" width="1419" height="765" />
     </state>
