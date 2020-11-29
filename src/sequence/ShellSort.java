@@ -16,6 +16,23 @@ public class ShellSort {
     public static void main(String[] args) {
         int count = 0;
         int[] arry = new int[]{19, 90, 55, 26, 35, 56, 44, 17, 26};
+        System.out.println("未排序的序列：" + Arrays.toString(arry));
+        for (int gap = arry.length / 2; gap > 0 ; gap = gap / 2) {
+            for (int i = gap; i < arry.length; i++) {
+                int preIndex = i - 1;
+                int temp = arry[i]; // 当前的目标值
+                while (preIndex >= 0 && arry[preIndex] >= temp) {
+                    count++;
+                    arry[preIndex + 1] = arry[preIndex];
+                    preIndex--;
+                }
+                // 如果不满足条件了，所以可以用preIndex + 1来获取到顺序的位置
+                arry[preIndex + 1] = temp;
+            }
+            System.out.println("gap=" + gap + "时的结果：" + Arrays.toString(arry));
+        }
+        System.out.println("结果：" + Arrays.toString(arry));
+        System.out.println("总共比较：" + count + "次");
     }
 
     /**
